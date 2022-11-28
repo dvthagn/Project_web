@@ -79,8 +79,8 @@
               </div>
         </div>
 
-        <div class="container">
-            <div class="box ">
+        <div class="flightbook container">
+            <div class="box">
                 <div class="header-slide mg__top-12">
                     <ul>
                         <li>
@@ -94,12 +94,12 @@
                 </div>
 
                 <div class="body-slide">
-                   <div class="option ">  
-                        <div class="">
-                            <div class="flex flex-wrap journey-type cursor-pointer relative">
-                                <div class="flex flex-nowrap flex-wrap items-center pr-7 p-2">
+                   <div class="option">  
+                        <div class="journey-type">
+                            <div class="flex flex-wrap w-full flex-nowrap option__childs--style cursor-pointer relative ">
+                                <div class="flex flex-nowrap w-full flex-wrap items-center  pr-7 p-2">
                                     <div>
-                                        <button class="flex flex-nowrap items-center">Khứ hồi</button>
+                                        <button class="flex flex-nowrap w-full items-center">Khứ hồi</button>
                                         <ul class="list__type absolute ">
                                             <li>Khứ hồi</li>
                                             <li>Một chiều</li>
@@ -109,27 +109,44 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="">
-                            <div class="flex flex-wrap traveller-infor">
-                                <div>
-                                    <button>
+                        <div class="traveller-infor">
+                            <div class="flex flex-wrap w-full flex-nowrap option__childs--style cursor-pointer relative ">
+                                <div class="flex flex-nowrap w-full flex-wrap items-center pr-7 p-2">
+                                    <button class="flex flex-nowrap  w-full items-center">
                                         <span>Hành khách</span>
                                     </button>
                                 </div>
-                                <i class="f2__narrow-down ti-angle-down"></i>
+                                <i class="flex f2__narrow-down items-center absolute ti-angle-down"></i>
+                                <div class="traveller-group">
+                                    <div class="traveller-group__selector">
+                                        <div class="traveller-selector-row">
+                                            <span class="traveller-selector-row__text"> Người lớn</span>
+                                            <button class="counter-btn" type="button">
+                                                <svg viewBox="0 0 24 24" class="icon__size icon__color-white"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path fill="currentColor" d="M19 12a1 1 0 01-1 1H6a1 1 0 010-2h12a1 1 0 011 1z"></path></g></svg>                                            </button>
+
+                                            <button class="counter-btn">
+                                                <svg viewBox="0 0 24 24" class="icon__size icon__color-white"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path fill="currentColor" d="M18 11a1 1 0 010 2h-5v5a1 1 0 01-2 0v-5H6a1 1 0 010-2h5V6a1 1 0 012 0v5h5z"></path></g></svg>                                            </button>
+                                        <div class="traveller-selector-row"></div>
+                                    </div>
+
+                                    <div class="traveller-group__btnClose">
+
+                                    </div>
+                                </div>
+                                
                             </div>
                         </div>
-                        <div class="">
-                            <div class="server-type">
-                                <div>
+                        <div class="server-type">
+                            <div class="flex flex-wrap w-full flex-nowrap option__childs--style cursor-pointer relative">
+                                <div class="flex flex-nowrap w-full flex-wrap items-center pr-7 p-2">
                                     <div>
-                                        <button></button>
-                                        <ul>
+                                        <button class="flex flex-nowrap w-full items-center">Phổ thông</button>
+                                        <ul class="list__type absolute ">
                                             <li>Phổ thông</li>
                                             <li>Thương gia</li>
                                         </ul>
                                     </div>
-                                    <i class="f2__narrow-down ti-angle-down"></i>
+                                    <i class="flex f2__narrow-down items-center absolute ti-angle-down"></i>
                                 </div>
                             </div>
                         </div>
@@ -139,7 +156,7 @@
                         
                    </div>
 
-                   <!-- <div class="mg__top-12">
+                   <div class="mg__top-12">
                         <div class="row ">
                             <div class="col">
                                 <select class="form-select" aria-label="Default select example">
@@ -182,7 +199,7 @@
 
                     <div class="mg__top-12 bottom-12">
                         <button class="btnFind ">Tìm chuyến bay</button>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>
