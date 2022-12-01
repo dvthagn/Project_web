@@ -79,138 +79,406 @@
               </div>
         </div>
 
-        <div class="flightbook container">
-            <div class="box">
-                <div class="header-slide mg__top-12">
-                    <ul>
-                        <li>
+        <div class="tabs-wrapper ">
+            <div class="gutter">
+                <div class="mp-tabs">
+                    <div class="header-slide mg__top-12">
+    
+                        <div class="header-slide--mglr ">
+    
                             <span href="" >
                                 <svg class="icon-plane" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><path fill="currentColor" d="M56.965 29.146c-1.924-.14-6.025-.498-11.227-.647a3.524 3.524 0 0 1-2.478-1.304l-.084-.105S26.54 5.92 25.706 4.806c-.834-1.113-1.76-1.77-3.09-1.77h-2.17c-.987 0-1.786.8-1.786 1.784 0 .28.078.536.192.772l10.255 20.752a1.758 1.758 0 0 1-1.488 2.534c-5.454.242-11.167.533-15.018.735h-.058a3.382 3.382 0 0 1-2.813-1.268L4.61 21.892a1.76 1.76 0 0 0-1.323-.612c-.986 0-1.8.8-1.785 1.784.004.204.077.55.077.55L3.497 32l-1.92 8.387s-.073.347-.077.55c-.016.986.8 1.785 1.784 1.785.533 0 .997-.243 1.324-.612l5.124-6.453a3.382 3.382 0 0 1 2.813-1.267h.06c3.85.2 9.567.492 15.022.735a1.757 1.757 0 0 1 1.48 2.532L18.852 58.41a1.753 1.753 0 0 0-.192.772c0 .985.8 1.784 1.785 1.784h2.17c1.33 0 2.29-.785 3.09-1.77.803-.986 17.47-22.287 17.47-22.287l.085-.105a3.524 3.524 0 0 1 2.457-1.302c5.224-.148 9.357-.507 11.248-.647 2.408-.178 5.535-.853 5.535-2.768v-.174c0-1.915-3.08-2.59-5.535-2.768z" fill-rule="evenodd"></path></svg>                                              
                             </span>
-
+        
                             <span class="text"> Chuyến bay</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="body-slide">
-                   <div class="option">  
-                        <div class="journey-type">
-                            <div class="flex flex-wrap w-full flex-nowrap option__childs--style cursor-pointer relative ">
-                                <div class="flex flex-nowrap w-full flex-wrap items-center  pr-7 p-2">
-                                    <div>
-                                        <button class="flex flex-nowrap w-full items-center">Khứ hồi</button>
-                                        <ul class="list__type absolute ">
-                                            <li>Khứ hồi</li>
-                                            <li>Một chiều</li>
-                                        </ul>
-                                    </div>
-                                    <i class="flex f2__narrow-down items-center absolute ti-angle-down"></i>
-                                </div>
-                            </div>
                         </div>
-                        <div class="traveller-infor">
-                            <div class="flex flex-wrap w-full flex-nowrap option__childs--style cursor-pointer relative ">
-                                <div class="flex flex-nowrap w-full flex-wrap items-center pr-7 p-2">
-                                    <button class="flex flex-nowrap  w-full items-center">
-                                        <span>Hành khách</span>
-                                    </button>
-                                </div>
-                                <i class="flex f2__narrow-down items-center absolute ti-angle-down"></i>
-                                <div class="traveller-group">
-                                    <div class="traveller-group__selector">
-                                        <div class="traveller-selector-row">
-                                            <span class="traveller-selector-row__text"> Người lớn</span>
-                                            <button class="counter-btn" type="button">
-                                                <svg viewBox="0 0 24 24" class="icon__size icon__color-white"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path fill="currentColor" d="M19 12a1 1 0 01-1 1H6a1 1 0 010-2h12a1 1 0 011 1z"></path></g></svg>                                            </button>
-
-                                            <button class="counter-btn">
-                                                <svg viewBox="0 0 24 24" class="icon__size icon__color-white"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path fill="currentColor" d="M18 11a1 1 0 010 2h-5v5a1 1 0 01-2 0v-5H6a1 1 0 010-2h5V6a1 1 0 012 0v5h5z"></path></g></svg>                                            </button>
-                                        <div class="traveller-selector-row"></div>
-                                    </div>
-
-                                    <div class="traveller-group__btnClose">
-
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <div class="server-type">
-                            <div class="flex flex-wrap w-full flex-nowrap option__childs--style cursor-pointer relative">
-                                <div class="flex flex-nowrap w-full flex-wrap items-center pr-7 p-2">
-                                    <div>
-                                        <button class="flex flex-nowrap w-full items-center">Phổ thông</button>
-                                        <ul class="list__type absolute ">
-                                            <li>Phổ thông</li>
-                                            <li>Thương gia</li>
-                                        </ul>
-                                    </div>
-                                    <i class="flex f2__narrow-down items-center absolute ti-angle-down"></i>
-                                </div>
-                            </div>
-                        </div>
-
-                        
-
-                        
-                   </div>
-
-                   <div class="mg__top-12">
-                        <div class="row ">
-                            <div class="col">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>Vui lòng chọn điểm đi</option>
-                                    <option value="1">Cambodia</option>
-                                    <option value="Hong Kong">Hong Kong</option>
-                                    <option value="India">India</option>
-                                    <option value="Japan">Japan</option>
-                                    <option value="Korea">Korea</option>
-                                    <option value="Laos">Laos</option>
-                                    <option value="Myanmar">Myanmar</option>
-                                    <option value="Singapore">Singapore</option>
-                                    <option value="Thailand">Thailand</option>
-                                    <option value="Vietnam">Vietnam</option>
-                                </select>
-                            </div>
-                            <div class="col">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>Vui lòng chọn điểm đến</option>
-                                    <option value="Cambodia">Cambodia</option>
-                                    <option value="Hong Kong">Hong Kong</option>
-                                    <option value="India">India</option>
-                                    <option value="Japan">Japan</option>
-                                    <option value="Korea">Korea</option>
-                                    <option value="Laos">Laos</option>
-                                    <option value="Myanmar">Myanmar</option>
-                                    <option value="Singapore">Singapore</option>
-                                    <option value="Thailand">Thailand</option>
-                                    <option value="Vietnam">Vietnam</option>
-                                </select>
-                            </div>
-                            <div class="col">
-                                <div class="input-group date" id="datepicker">
-                                    <input type="date" class="form-control" id="date" />
-                                    
-                                </div>
-                            </div>
-                        </div>
+    
+    
+                        <ul>
+                            <li>
+                            </li>
+                        </ul>
                     </div>
-
-                    <div class="mg__top-12 bottom-12">
-                        <button class="btnFind ">Tìm chuyến bay</button>
+    
+                    <div class="body-slide mg__top-12">
+                       <div class="flight-type">  
+                            <div class="flight-type--item__dropdown">
+                                <button class="button-dropdown">Khứ hồi
+                                    
+                                    <i class="f2__narrow-down items-center absolute  ti-angle-down"></i>
+                                </button>
+                                <div class="_dropdown-sub--style">       
+                                    <ul class="item__dropdown-sub-list">
+                                        <li>Khứ hồi</li>
+                                        <li>Một chiều</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="flight-type--item__dropdown mg__left-8 ">
+                                <button class="button-dropdown">
+                                    <span>Hành khách</span>
+                                    <i class="flex f2__narrow-down items-center absolute ti-angle-down"></i>
+    
+                                </button>
+    
+    
+                                <div class="_dropdown-sub--style ">
+                                    <div class="traveller-group ">
+                                        <div class="counters ">
+                                            <div class="counter">
+                                                <div class="counter-label">
+                                                    <div class="counter-label-title__wrap">
+                                                        <span class="counter-label-title"> Người lớn</span>
+                                                    </div>
+                                                   
+    
+                                                </div>
+    
+                                                <div class="counter-field ">
+                                                    <div class="counter-field__wrap">
+    
+                                                        <button class="counter-btn ounter-btn-disabled" type="button">
+                                                            <svg viewBox="0 0 24 24" class="icon__size icon__color-white"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path fill="currentColor" d="M19 12a1 1 0 01-1 1H6a1 1 0 010-2h12a1 1 0 011 1z"></path></g></svg>                                            
+                                                        </button>
+                                                        <input type="number" aria-live="assertive" name="adults" pattern="[0-9]*" inputmode="numeric" class="counter-input" aria-labelledby="adults-travellers-02ED05A2-6B2A-43C0-9E88-B7AE62295328 adults-travellers-02ED05A2-6B2A-43C0-9E88-B7AE62295328-label travellers-02ED05A2-6B2A-43C0-9E88-B7AE62295328-label" value="1">
+                                                        <button class="counter-btn ounter-btn-disabled">
+                                                            <svg viewBox="0 0 24 24" class="icon__size icon__color-white"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path fill="currentColor" d="M18 11a1 1 0 010 2h-5v5a1 1 0 01-2 0v-5H6a1 1 0 010-2h5V6a1 1 0 012 0v5h5z"></path></g></svg>                                            
+                                                        </button>
+                                                    </div>
+    
+                                                </div>
+                                            </div>
+    
+                                            <div class="counter">
+                                                <div class="counter-label">
+                                                    <div class="counter-label-title__wrap">
+                                                        <span class="counter-label-title">Trẻ em</span>
+                                                    </div>
+    
+                                                </div>
+    
+                                                <div class="counter-field ">
+                                                    <div class="counter-field__wrap">
+    
+                                                        <button class="counter-btn ounter-btn-disabled" type="button">
+                                                            <svg viewBox="0 0 24 24" class="icon__size icon__color-white"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path fill="currentColor" d="M19 12a1 1 0 01-1 1H6a1 1 0 010-2h12a1 1 0 011 1z"></path></g></svg>                                            
+                                                        </button>
+                                                        <input type="number" aria-live="assertive" name="adults" pattern="[0-9]*" inputmode="numeric" class="counter-input" aria-labelledby="adults-travellers-02ED05A2-6B2A-43C0-9E88-B7AE62295328 adults-travellers-02ED05A2-6B2A-43C0-9E88-B7AE62295328-label travellers-02ED05A2-6B2A-43C0-9E88-B7AE62295328-label" value="1">
+                                                        <button class="counter-btn ounter-btn-disabled">
+                                                            <svg viewBox="0 0 24 24" class="icon__size icon__color-white"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path fill="currentColor" d="M18 11a1 1 0 010 2h-5v5a1 1 0 01-2 0v-5H6a1 1 0 010-2h5V6a1 1 0 012 0v5h5z"></path></g></svg>                                            
+                                                        </button>
+                                                    </div>
+    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="button-comfirm__style button-dropdown-confirm" aria-controls="dd-travellers-02ED05A2-6B2A-43C0-9E88-B7AE62295328" type="button" tabindex="0">Xác nhận
+    
+                                        </button>
+                                    
+                                    </div>
+                                </div>
+                               
+                                   
+                            </div>  
+                            
+                            <div class="flight-type--item__dropdown mg__left-8 ">
+                                <button class="button-dropdown">Phổ thông
+                                    <i class="flex f2__narrow-down items-center absolute ti-angle-down"></i>
+                                </button>
+    
+                                <div class="_dropdown-sub--style">       
+                                    <ul class="item__dropdown-sub-list">
+                                        <li>Phổ thông</li>
+                                        <li>Thương gia</li>
+                                    </ul>
+                                </div>
+                            </div>
+    
+                            
+    
+                            
+                       </div>
+    
+                       <div class="sd-rows">
+                            <div class="row ">
+                                <div class="col">
+                                    <select class="form-select border--blue" aria-label="Default select example">
+                                        <option selected>Vui lòng chọn điểm đi</option>
+                                        <option value="1">Cambodia</option>
+                                        <option value="Hong Kong">Hong Kong</option>
+                                        <option value="India">India</option>
+                                        <option value="Japan">Japan</option>
+                                        <option value="Korea">Korea</option>
+                                        <option value="Laos">Laos</option>
+                                        <option value="Myanmar">Myanmar</option>
+                                        <option value="Singapore">Singapore</option>
+                                        <option value="Thailand">Thailand</option>
+                                        <option value="Vietnam">Vietnam</option>
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <select class="form-select border--blue" aria-label="Default select example">
+                                        <option selected>Vui lòng chọn điểm đến</option>
+                                        <option value="Cambodia">Cambodia</option>
+                                        <option value="Hong Kong">Hong Kong</option>
+                                        <option value="India">India</option>
+                                        <option value="Japan">Japan</option>
+                                        <option value="Korea">Korea</option>
+                                        <option value="Laos">Laos</option>
+                                        <option value="Myanmar">Myanmar</option>
+                                        <option value="Singapore">Singapore</option>
+                                        <option value="Thailand">Thailand</option>
+                                        <option value="Vietnam">Vietnam</option>
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <div class="input-group_date date" id="datepicker">
+                                        <input type="date" class="form-control border--blue" id="date" />
+                                        
+                                    </div>
+                                </div>
+    
+                                <div class="col">
+                                    <div class="input-group date" id="datepicker">
+                                        <input type="date" class="form-control border--blue" id="date" />
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="">
+                            <button class="button-find-flight button-comfirm__style">Tìm chuyến bay</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="description ">
-            <div class="text-desc">
+            <div class="gutter">
 
-                Giá vé là giá vé phổ thông một chiều chỉ đi kèm với 7kg hành lý xách tay. Giá vé dựa trên việc đặt chỗ trên jetstar.com sử dụng các lựa chọn thanh toán miễn phí như phương thức thanh toán ngoại tuyến của SingPost và phiếu thanh toán của Jetstar. Áp dụng phí đặt chỗ và phí dịch vụ thêm lên đến SGD $ 10 cho mỗi hành khách, mỗi chuyến bay đối với tất cả các lựa chọn thanh toán khác. Các lựa chọn thanh toán và phí có thể khác nhau tùy theo loại tiền tệ. Bạn cần được tiêm phòng đầy đủ để đi du lịch không phải cách ly, tuân theo các quy định hiện hành của chính phủ tại nơi đến. Những du khách chưa được tiêm phòng sẽ cần phải cách ly khi đến một số điểm đến. Trước khi đặt vé và trước khi khởi hành, vui lòng đảm bảo rằng bạn đã kiểm tra các yêu cầu về đi lại và quá cảnh mới nhất, có thể bao gồm khai báo sức khỏe bắt buộc, tiêm phòng, xét nghiệmCOVID-19, sử dụng khẩu trang, giấy phép nhập cảnh, chấp thuận trước và cách ly (có thể bằng chi phí riêng của bạn), hoặc bạn có thể bị từ chối nhập cảnh. Tất cả các du khách có trách nhiệm đảm bảo rằng họ đủ điều kiện để nhập cảnh vào điểm đến cuối cùng trước khi đặt vé.
+                <div class="description-box">
+                    <div class="text-wrapper">
+                        Giá vé là giá vé phổ thông một chiều chỉ đi kèm với 7kg hành lý xách tay. Giá vé dựa trên việc đặt chỗ trên jetstar.com sử dụng các lựa chọn thanh toán miễn phí như phương thức thanh toán ngoại tuyến của SingPost và phiếu thanh toán của Jetstar. Áp dụng phí đặt chỗ và phí dịch vụ thêm lên đến SGD $ 10 cho mỗi hành khách, mỗi chuyến bay đối với tất cả các lựa chọn thanh toán khác. Các lựa chọn thanh toán và phí có thể khác nhau tùy theo loại tiền tệ. Bạn cần được tiêm phòng đầy đủ để đi du lịch không phải cách ly, tuân theo các quy định hiện hành của chính phủ tại nơi đến. Những du khách chưa được tiêm phòng sẽ cần phải cách ly khi đến một số điểm đến. Trước khi đặt vé và trước khi khởi hành, vui lòng đảm bảo rằng bạn đã kiểm tra các yêu cầu về đi lại và quá cảnh mới nhất, có thể bao gồm khai báo sức khỏe bắt buộc, tiêm phòng, xét nghiệmCOVID-19, sử dụng khẩu trang, giấy phép nhập cảnh, chấp thuận trước và cách ly (có thể bằng chi phí riêng của bạn), hoặc bạn có thể bị từ chối nhập cảnh. Tất cả các du khách có trách nhiệm đảm bảo rằng họ đủ điều kiện để nhập cảnh vào điểm đến cuối cùng trước khi đặt vé.
+                    </div>
+    
+                </div>
             </div>
 
 
+        </div>
+
+
+        <div class="list-product">
+            <div class="list-product__box">
+                <div class="row gutter list-product__box">
+
+                    <div class="col-lg-3">
+                        <div class="card h-80">
+                          <a href="#"><img class="card-img-top" src="https://bav-ui.useleadr.com/uploads/medium_tp_ho_chi_minh_saigon_d3b91cdfa6.jpg"  alt=""></a>
+                          <div class="card-body">
+                            <!-- <h4 class="card-title"> -->
+                            <div class="item-from-destination">
+
+                                <div class="item-from-city-name">
+                                    <span>TP. HCM</span>
+                                    <span>đến</span>
+                                </div>
+                                <div class="item-destination-city-name">
+                                    <span>Singapore</span>
+                                </div>
+                            </div>
+
+                            <div class="item-info">
+                                <div class="item-departure-info">
+                                    <time datetime="2022-12-01">
+                                        <span class="fr-span fr-ml-1  fr-float-left" aria-hidden="true">01/12/2022</span>
+                                        <span style="border: 0px;clip: rect(0px, 0px, 0px, 0px);height: 1px;margin: -1px;overflow: hidden;padding: 0px;position: absolute;width: 1px;white-space: nowrap;overflow-wrap: normal;"> Tháng 12 1, 2022</span>
+                                    </time>
+                                </div>
+
+                                <span>-</span>
+
+                                <div class="item-return-info">
+                                    <time datetime="2022-12-07"><span class="fr-span fr-ml-1  fr-float-left" aria-hidden="true">07/12/2022</span><span style="border: 0px;clip: rect(0px, 0px, 0px, 0px);height: 1px;margin: -1px;overflow: hidden;padding: 0px;position: absolute;width: 1px;white-space: nowrap;overflow-wrap: normal;"> Tháng 12 7, 2022</span></time>
+                                </div>
+                            </div>
+
+                            <div class="item-price">
+                                <span class="price">4.104.000</span>
+                                <span class="">VND</span>
+                            </div>
+                            <!-- </h4> -->
+                           <div class="item-type">
+                                <div class="item-journey-type"><span class="span-item-type-journey">Khứ hồi</span></div>
+                                <span class="fr-span fr-pr-1 fr--491747451  fr-float-left">/</span>
+                                <div class="item-travel-class"><span class="span-travel-class">Phổ thông</span></div>
+                           </div>
+                            
+                            
+                          </div>
+                          <div class="card-footer">
+                            <a href="#" class="btn btn-primary" style="width:100%">Đặt vé ngay</a>
+          
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card h-80">
+                          <a href="#"><img class="card-img-top" src="https://bav-ui.useleadr.com/uploads/medium_tp_ho_chi_minh_saigon_d3b91cdfa6.jpg"  alt=""></a>
+                          <div class="card-body">
+                            <!-- <h4 class="card-title"> -->
+                            <div class="item-from-destination">
+
+                                <div class="item-from-city-name">
+                                    <span>TP. HCM</span>
+                                    <span>đến</span>
+                                </div>
+                                <div class="item-destination-city-name">
+                                    <span>Singapore</span>
+                                </div>
+                            </div>
+
+                            <div class="item-info">
+                                <div class="item-departure-info">
+                                    <time datetime="2022-12-01">
+                                        <span class="fr-span fr-ml-1  fr-float-left" aria-hidden="true">01/12/2022</span>
+                                        <span style="border: 0px;clip: rect(0px, 0px, 0px, 0px);height: 1px;margin: -1px;overflow: hidden;padding: 0px;position: absolute;width: 1px;white-space: nowrap;overflow-wrap: normal;"> Tháng 12 1, 2022</span>
+                                    </time>
+                                </div>
+
+                                <span>-</span>
+
+                                <div class="item-return-info">
+                                    <time datetime="2022-12-07"><span class="fr-span fr-ml-1  fr-float-left" aria-hidden="true">07/12/2022</span><span style="border: 0px;clip: rect(0px, 0px, 0px, 0px);height: 1px;margin: -1px;overflow: hidden;padding: 0px;position: absolute;width: 1px;white-space: nowrap;overflow-wrap: normal;"> Tháng 12 7, 2022</span></time>
+                                </div>
+                            </div>
+
+                            <div class="item-price">
+                                <span class="price">4.104.000</span>
+                                <span class="">VND</span>
+                            </div>
+                            <!-- </h4> -->
+                           <div class="item-type">
+                                <div class="item-journey-type"><span class="span-item-type-journey">Khứ hồi</span></div>
+                                <span class="fr-span fr-pr-1 fr--491747451  fr-float-left">/</span>
+                                <div class="item-travel-class"><span class="span-travel-class">Phổ thông</span></div>
+                           </div>
+                            
+                            
+                          </div>
+                          <div class="card-footer">
+                            <a href="#" class="btn btn-primary" style="width:100%">Đặt vé ngay</a>
+          
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="card h-80">
+                          <a href="#"><img class="card-img-top" src="https://bav-ui.useleadr.com/uploads/medium_tp_ho_chi_minh_saigon_d3b91cdfa6.jpg"  alt=""></a>
+                          <div class="card-body">
+                            <!-- <h4 class="card-title"> -->
+                            <div class="item-from-destination">
+
+                                <div class="item-from-city-name">
+                                    <span>TP. HCM</span>
+                                    <span>đến</span>
+                                </div>
+                                <div class="item-destination-city-name">
+                                    <span>Singapore</span>
+                                </div>
+                            </div>
+
+                            <div class="item-info">
+                                <div class="item-departure-info">
+                                    <time datetime="2022-12-01">
+                                        <span class="fr-span fr-ml-1  fr-float-left" aria-hidden="true">01/12/2022</span>
+                                        <span style="border: 0px;clip: rect(0px, 0px, 0px, 0px);height: 1px;margin: -1px;overflow: hidden;padding: 0px;position: absolute;width: 1px;white-space: nowrap;overflow-wrap: normal;"> Tháng 12 1, 2022</span>
+                                    </time>
+                                </div>
+
+                                <span>-</span>
+
+                                <div class="item-return-info">
+                                    <time datetime="2022-12-07"><span class="fr-span fr-ml-1  fr-float-left" aria-hidden="true">07/12/2022</span><span style="border: 0px;clip: rect(0px, 0px, 0px, 0px);height: 1px;margin: -1px;overflow: hidden;padding: 0px;position: absolute;width: 1px;white-space: nowrap;overflow-wrap: normal;"> Tháng 12 7, 2022</span></time>
+                                </div>
+                            </div>
+
+                            <div class="item-price">
+                                <span class="price">4.104.000</span>
+                                <span class="">VND</span>
+                            </div>
+                            <!-- </h4> -->
+                           <div class="item-type">
+                                <div class="item-journey-type"><span class="span-item-type-journey">Khứ hồi</span></div>
+                                <span class="fr-span fr-pr-1 fr--491747451  fr-float-left">/</span>
+                                <div class="item-travel-class"><span class="span-travel-class">Phổ thông</span></div>
+                           </div>
+                            
+                            
+                          </div>
+                          <div class="card-footer">
+                            <a href="#" class="btn btn-primary" style="width:100%">Đặt vé ngay</a>
+          
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="card h-80">
+                          <a href="#"><img class="card-img-top" src="https://bav-ui.useleadr.com/uploads/medium_tp_ho_chi_minh_saigon_d3b91cdfa6.jpg"  alt=""></a>
+                          <div class="card-body">
+                            <!-- <h4 class="card-title"> -->
+                            <div class="item-from-destination">
+
+                                <div class="item-from-city-name">
+                                    <span>TP. HCM</span>
+                                    <span>đến</span>
+                                </div>
+                                <div class="item-destination-city-name">
+                                    <span>Singapore</span>
+                                </div>
+                            </div>
+
+                            <div class="item-info">
+                                <div class="item-departure-info">
+                                    <time datetime="2022-12-01">
+                                        <span class="fr-span fr-ml-1  fr-float-left" aria-hidden="true">01/12/2022</span>
+                                        <span style="border: 0px;clip: rect(0px, 0px, 0px, 0px);height: 1px;margin: -1px;overflow: hidden;padding: 0px;position: absolute;width: 1px;white-space: nowrap;overflow-wrap: normal;"> Tháng 12 1, 2022</span>
+                                    </time>
+                                </div>
+
+                                <span>-</span>
+
+                                <div class="item-return-info">
+                                    <time datetime="2022-12-07"><span class="fr-span fr-ml-1  fr-float-left" aria-hidden="true">07/12/2022</span><span style="border: 0px;clip: rect(0px, 0px, 0px, 0px);height: 1px;margin: -1px;overflow: hidden;padding: 0px;position: absolute;width: 1px;white-space: nowrap;overflow-wrap: normal;"> Tháng 12 7, 2022</span></time>
+                                </div>
+                            </div>
+
+                            <div class="item-price">
+                                <span class="price">4.104.000</span>
+                                <span class="">VND</span>
+                            </div>
+                            <!-- </h4> -->
+                           <div class="item-type">
+                                <div class="item-journey-type"><span class="span-item-type-journey">Khứ hồi</span></div>
+                                <span class="fr-span fr-pr-1 fr--491747451  fr-float-left">/</span>
+                                <div class="item-travel-class"><span class="span-travel-class">Phổ thông</span></div>
+                           </div>
+                            
+                            
+                          </div>
+                          <div class="card-footer">
+                            <a href="#" class="btn btn-primary" style="width:100%">Đặt vé ngay</a>
+          
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- end main content -->
