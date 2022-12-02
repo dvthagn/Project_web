@@ -1,4 +1,4 @@
-/* css important */
+css important
 .mg__top-12{
     margin-top: 12px;
 }
@@ -16,20 +16,10 @@
     margin-left: 8px;
 }
 
-.items-center{
-    align-items: center;
-}
-
 .cursor-pointer {
     cursor: pointer;
 }
 
-.relative {
-    position: relative;
-}
-.absolute{
-    position: absolute;
-}
 /* end css important */
 
 ul{
@@ -43,7 +33,7 @@ ul{
     box-sizing: border-box;
 }
 html{
-    font-size: 100%;
+    /* font-size: 100%; */
     line-height: 24px;
     font-family: "Helvetica Neue",Roboto,Arial,sans-serif;
 }
@@ -57,12 +47,9 @@ html{
     height: 46px;
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
+    width: 100%;
     display: flex;
     z-index: 1;
-    padding: 0 90px;
-    justify-content: space-between;
     
 }
 
@@ -215,7 +202,7 @@ html{
 .f2__narrow-down{
     display: flex;
     font-size: 12px;
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
@@ -230,6 +217,8 @@ html{
     bottom: 0;
     right: 0;
     padding-right: 0.375rem;
+    align-items: center;
+    position: absolute;
     
 }
 
@@ -240,7 +229,7 @@ html{
     box-shadow: 0 0.1875rem 0.5rem 0 rgb(0 0 0 / 12%);
     position: absolute;
     z-index: 99999;
-    display: none;
+    /* display: none; */
 }
 
 
@@ -328,6 +317,10 @@ html{
 .tabs-wrapper button:hover,
 .sd-rows .border--blue:hover{
     border: 1px solid #0692fc;
+}
+
+.sd-rows .row .col {
+    cursor: pointer;
 }
 
 .tabs-wrapper button {
@@ -554,6 +547,8 @@ html{
     float: right;
   
 }
+
+
 
 /* end  css list product */
 
