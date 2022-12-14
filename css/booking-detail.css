@@ -1,0 +1,316 @@
+.progress-item {
+
+    position: relative;
+    height: 24px;
+    line-height: 24px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #00305B;
+    border-radius: 3px;
+    background: #fbf9f2;
+    float: left;
+}
+
+.progress-item .desciption{
+    display: inline-block;
+}
+
+
+
+
+.main-content{
+    margin-top:34px;
+}
+
+.css-flight-wrapper{
+    padding-left:230px;
+}
+.booking-classes {
+
+}
+.booking-classes .type-flight:first-child{
+    background-color: #64AF53;
+}
+
+.booking-classes .type-flight:last-child{
+    background-color: #00558F;
+}
+
+.flight-wrapper .booking-classes .type-flight{
+    margin-left: 6px;
+    color: #fff;
+    padding: 10px 6px;
+    font-size: 12px;
+    border-radius: 4px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600
+}
+
+
+.flight-data .flight-info{
+    padding: 10px;
+    background-color: #04a7ea;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    border-radius: 3px 3px 0 0;
+}
+
+.flight-info .info-detail h2{
+    font-size: 20px;
+    margin: 0;
+    line-height: unset;
+}
+
+.flight-info .info-detail .flight-date{
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+
+
+/* begin css list flight */
+.fare-option{
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    display: table;
+    position: relative;
+    width: 100%;
+}
+
+.fare-option-active {
+    border: 1px solid #00c307;
+}
+
+
+.flight .destination-info{
+    width: 150px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.flight .destination-info .time{
+    font-size: 25px;
+}
+
+.flight .destination-info .date{
+    font-size: 13px;
+    margin-top: 3px;
+    display: none;
+}
+
+.flight .flight-detail{
+    padding: 0;
+    width: 120px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.flight .fa-solid{
+    font-size: 18px;
+    color: #00a2ef;
+}
+
+.fare-option .fare-option-info{
+    display: table-cell;
+    vertical-align: middle;
+    border-left: 1px solid #eee;
+    padding-left: 10px;
+}
+
+.fare-option-info .price{
+    padding: 0;
+    min-width: 200px;
+    font-size: 18px;
+    text-align: right;
+    padding-right: 15px;
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: 700;
+
+}
+
+.price {
+    color: #fb7604;
+}
+
+.currency{
+    color: #666;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fare-option-info .select{
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.select a{
+    text-align: center;
+}
+
+.select .button-next{
+    position: relative;
+    background-color: #04a7ea;
+    color: #fff;
+
+    padding: 7px 25px;
+    border-radius: 3px 3px 3px 3px;
+    display: inline-block;
+    float: right;
+    white-space: nowrap;
+}
+
+.button-next:hover{
+    color: #fff;
+    background-color: #dcdcdc;
+}
+
+
+/* fare detail */
+.flight-detail-container{
+    /* display: none; */
+    padding: 15px 15px 15px 15px;
+    background: #eee;
+    margin: 0 10px 10px 10px;
+    border-radius: 0 0 3px 3px;
+}
+
+.box-item{
+    padding: 0 15px;
+}
+
+.flight-detail-container .box-item{
+    background: #fff;
+    -webkit-box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.box-item .box-item-title{
+    border-bottom: 1px solid rgba(136,136,136,.2);
+    padding: 15px 0 7px 0;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.box-item .box-item-content{
+    padding: 10px 0;
+}
+
+.box-item-content .flight-detail{
+    font-size: 13px;
+    padding: 10px;
+    display: table;
+    position: relative;
+    width: 100%;
+}
+
+.flight-detail .depart{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 1px solid #eee;
+    width: 30%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.flight-detail .city{
+    font-weight: 700;
+}
+
+.flight-detail .airport{
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.flight-detail .hour{
+    font-weight: 700;
+}
+
+.flight-detail .arrival{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 1px solid #eee;
+    width: 30%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.flight-detail .flight-detail-info{
+    padding-left: 10px;
+    border-left: 1px solid #eee;
+    color: #808080;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.clear{
+    float: none !important;
+    clear: both;
+}
+/* end fare detai */
+/* end css list flight */
+
+
+/* css basket */
+.box-min{
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+.box-min .header {
+    border-bottom: 1px solid rgba(136,136,136,.2);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.box-min .content {
+    background: #fff;
+    padding: 0;
+}
+
+.basket-item{
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+}
+.basket-item-last {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.table-basket-price tr.price-summary {
+    font-size: 13px;
+}
+
+.table-basket-price .price{
+    color: #fb7604;
+    text-align: right;
+}
+/* end css basket */

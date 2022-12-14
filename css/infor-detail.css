@@ -1,0 +1,20 @@
+.button-footer .button-pre{
+    position: relative;
+    background-color: #04a7ea;
+    color: #fff;
+    padding: 7px 15px ;
+    border-radius: 3px 3px 3px 3px;
+    display: inline-block;
+    float: left;
+}
+
+.button-footer .button-next{
+    position: relative;
+    background-color: #04a7ea;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 3px 3px 3px 3px;
+    display: inline-block;
+    float: right;
+    white-space: nowrap;
+}
